@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://kit.fontawesome.com/dd74cbff5f.js" crossorigin="anonymous"></script>
+    <style>
+.whatsapp-icon {
+    position: fixed;
+    bottom: 75px;
+    right: 20px;
+    display: inline-block;
+    z-index: 999;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.whatsapp-icon img {
+    width: 30px;
+    height: 30px;
+    }
+
+.whatsapp-icon:hover {
+    transform: scale(1.1);
+}
+.inst {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: inline-block;
+    z-index: 999;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+.inst img{
+    width: 30px;
+    height: 30px;
+    }
+.inst:hover{
+    transform: scale(1.1);
+}
+.twi {
+    position: fixed;
+    bottom: 130px;
+    right: 20px;
+    display: inline-block;
+    z-index: 999;
+    text-decoration: none;
+    transition: transform 0.3s ease-in-out;
+}
+.twi img{
+    width: 30px;
+    height: 30px;
+}.twi:hover{
+    transform: scale(1.1);
+}
+.icon {
+    position: fixed;
+    bottom: 50%;
+    right: 20px;
+    display: inline-block;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 999;
+    font-size: 48px;
+    color: #f39c12;
+    transition: transform 0.3s ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    animation: bounce 0.3s ease-in-out;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+    </style>
+<script>
+const popup = document.getElementById('popup');
+const showIconBtn = document.getElementById('showIcon');
+const icon = document.querySelector('.icon');
+
+showIconBtn.addEventListener('click', () => {
+    icon.classList.add('show');
+    popup.style.display = 'none';
+});
+
+</script>
+    <title>At your Service</title>
+</head>
+<body>
+    <!-- component -->
+<div class="overflow-y-auto sm:p-0 pt-4 pr-4 pb-20 pl-4 bg-white">
+    <div class="flex justify-center items-end text-center min-h-screen sm:block">
+      <div class="bg-gray-500 transition-opacity bg-opacity-75"></div>
+      <span class="hidden sm:inline-block sm:align-middle sm:h-screen">​</span>
+      <div class= "inline-block text-left bg-gray-900 rounded-lg overflow-hidden align-bottom transition-all transform
+          shadow-2xl sm:my-8 sm:align-middle sm:max-w-xl sm:w-full">
+        <div class="items-center w-full mr-auto ml-auto relative max-w-7xl md:px-12 lg:px-24">
+          <div class="grid grid-cols-1">
+            <div class="mt-4 mr-auto mb-4 ml-auto bg-gray-900 max-w-lg">
+              <div class="flex flex-col items-center pt-6 pr-6 pb-6 pl-6">
+                <img
+                    src="c:\Users\Olatoye Dhikrullah\Pictures\Saved Pictures\IMG_E3566.JPG?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500" class="flex-shrink-0 object-cover object-center btn- flex w-16 h-16 mr-auto -mb-8 ml-auto rounded-full shadow-xl">
+                <p class="mt-8 text-2xl font-semibold leading-none text-white tracking-tighter lg:text-3xl">Olatoye Dhikrullah</p>
+                <p class="mt-3 text-base leading-relaxed text-center text-gray-200"> 
+  
+                  "Hello, I'm Dhikrullah, CEO Graphwell Intellect, a creative at the intersection of design and technology. With a passion for both graphics design and software development, I bring a unique blend of creativity and technical expertise to every project I undertake.
+                  
+                  As a graphics designer, I specialize in transforming ideas into visually stunning realities. My eye for aesthetics, attention to detail, and knack for storytelling allow me to craft engaging designs that leave a lasting impact. Whether it's designing captivating logos, crafting immersive user interfaces, or creating compelling marketing materials, I thrive on turning visions into visual masterpieces.
+                  
+                  On the software development front, I'm equally adept at crafting lines of code as I am at crafting visual elements. With a strong foundation in programming languages and a deep understanding of software architecture, I create efficient and elegant solutions that bridge the gap between innovation and functionality. From web applications to mobile apps, I'm committed to building seamless digital experiences that empower users and exceed expectations.
+                  
+                  What truly sets me apart is my ability to seamlessly blend the worlds of design and development. This enables me to approach projects holistically, ensuring that every pixel and every line of code serves a purpose and contributes to the overall success of the project.
+                  
+                  I look forward to bringing my passion for design and development to your next project and collaborating to create something truly extraordinary."
+                  
+                  Feel free to personalize and tweak this bio to match your experiences, style, and aspirations.</p>
+                
+                  </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>   
+</body>
+</html>
